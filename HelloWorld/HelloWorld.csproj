@@ -5,4 +5,7 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Net.WebSockets.Client" Version="4.3.0" />
+  </ItemGroup>
 </Project>
