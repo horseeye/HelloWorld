@@ -47,6 +47,17 @@ namespace HelloWorld
 			Console.WriteLine();
 			Console.WriteLine();
 
+			 msg = await ReceiveAsync(cws);
+			Console.WriteLine(msg);
+			Console.WriteLine();
+			Console.WriteLine();
+
+
+			 msg = await ReceiveAsync(cws);
+			Console.WriteLine(msg);
+			Console.WriteLine();
+			Console.WriteLine();
+
 			await CloseAsync(cws);
 
 		}
